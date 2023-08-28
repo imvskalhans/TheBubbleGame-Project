@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: #f1f1f1;
+
+  font-family:  "Roboto", sans-serif;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(87, 187, 187);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gamebox {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(227, 232, 232);
+  border-radius: 10px;
+  margin: auto;
+}
+
+.toppanel {
+  width: 90%;
+  height: 15%;
+  background-color: rgb(87, 187, 187);
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bubblebox {
+  width: 90%;
+  height: 70%;
+  background-color: rgb(87, 187, 187);
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  overflow: auto;
+}
+
+.bubbles {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(162, 192, 197);
+  border-radius: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.bubbles:hover {
+  background-color: rgb(190, 223, 223);
+  cursor: pointer;
+}
+
+.panelbox {
+  width: 20%;
+  height: 50%;
+  margin: auto;
+  background-color: rgb(190, 223, 223);
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  overflow: hidden;
+  font-weight: 500;
+}
+
+.panelcontent {
+  width: 30%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(162, 192, 197);
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+/* Add styles for the game-over and final-score classes */
+.game-over {
+  text-align: center; /* Center the text horizontally */
+  margin-bottom: 20px; /* Add space between "Game Over!" and the final score */
+}
+
+.final-score {
+  text-align: center; /* Center the text horizontally */
+}
+
+.gametitle {
+  width: 100%;
+  height: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(88, 134, 186);
+  margin-bottom: 3%;
+}
+
+/* Adding styles for the copyright footer */
+.copyright {
+  width: 100%;
+  text-align: center;
+  background-color: rgb(87, 187, 187);
+  color: rgb(50, 80, 114);
+  bottom: 0;
+  position: absolute;
+  font-weight: bold;
+  font-size: 14px;
+}
